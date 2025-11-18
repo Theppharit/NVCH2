@@ -11,7 +11,7 @@
     />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -34,17 +34,33 @@
             </button>
           </div>
 
-          <span class="login__line"></span>
+          <span class="login__line">or</span>
 
-          <form action="" method="post" class="login__form"></form>
+          <form action="" method="post" class="login__form">
+             <div class="login__content grid">
+              <div class="login__box">
+                <input type="email" name="email" placeholder="Email" required class="login__input">
+                <i class="ri-mail-line"></i>
+              </div>
+              <div class="login__box">
+                <input type="password" name="password" placeholder="Password" required class="login__input" id="loginPass">
+                <i class="ri-eye-line login__eye" id="loginEye"></i>
+              </div>
+             </div>
+             <a href="#" class="login__forgot">Forgot Password</a>
+             <button type="submit" class="login__button">Log In</button>
+          </form>
+          
 
           <p class="login__switch"></p>
+          Don’t have an account?
+          <a href="#" class="login__sign">Sign Up</a>
         </div>
       </div>
     </div>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
