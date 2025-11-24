@@ -208,9 +208,48 @@ img {
   border-color: var(--title-color);
 }
 
+.login__input:autofill{
+  transition: background-color 6000s, color 6000s;
+}
 
+.login__box i{
+  position: absolute;
+  right: 1.25rem;
+  font-size: 1.5rem;
+  color:var(--title-color);
+}
+
+.login__eye{
+  z-index: 10;
+  cursor: pointer;
+}
+
+.login__forgot{
+  display: block;
+  width: max-content;
+  margin: 0 0 1.5rem auto;
+  font-size: var(--small-font-size);
+  color: var(--first-color);
+}
+
+.login__switch{
+  display: flex;
+  justify-content: center;
+  column-gap: .5rem;
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
+
+.login__sign{
+  color: var(--first-color);
+}
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
-
+@media screen and (min-width: 540px){
+  .login__area{
+    grid-template-columns: 340;
+    justify-content: center;
+  }
+}
 
 /* For large devices */
