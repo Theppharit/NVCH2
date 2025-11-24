@@ -115,7 +115,7 @@ img {
 .login__button-border{
   width: 100%;
   padding: 1rem;
-  border-radius: 5rem;
+  border-radius: .5rem;
   font-weight: var(--font-semi-bold);
   cursor: pointer;
   transition: background-color .4s, box-shadow .4s;
@@ -141,7 +141,7 @@ img {
   color: var(--title-color);
 }
 
-.login__button-border{
+.login__button-border i{
   font-size: 1.5rem;
   font-weight: initial;
 }
@@ -154,7 +154,7 @@ img {
   position: relative;
   justify-self: center;
   font-weight: var(--font-semi-bold);
-  color: var(--text-color);
+  color: var(--title-color);
 }
 
 .login__line::before,
@@ -178,8 +178,8 @@ img {
 }
 
 .login__content{
-  row-gap: 75rem;
-  margin-bottom: 75rem;
+  row-gap: .75rem;
+  margin-bottom: .75rem;
 }
 
 .login__box{
@@ -192,7 +192,7 @@ img {
 .login__input{
   width: 100%;
   background: none;
-  border: 2px solid var(--body-color);
+  border: 2px solid var(--border-color);
   padding: 1rem 1.25rem;
   border-radius: .5rem;
   color: var(--title-color);
@@ -204,6 +204,7 @@ img {
 .login__input::placeholder{
   color: var(--title-color);
 }
+
 .login__input:focus{
   border-color: var(--title-color);
 }
@@ -243,6 +244,7 @@ img {
 .login__sign{
   color: var(--first-color);
 }
+
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
 @media screen and (min-width: 540px){
