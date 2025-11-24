@@ -264,6 +264,17 @@ img {
   }
   .login__swiper{
     display: block;
-    
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    border-radius: 2.5rem;
+    margin-inline: initial;
+    clip-path: path("M0 37.8182C0 16.9318 17.9784 0 40.156 0H551.843C574.902 0 593.224 18.2478 591.936 39.9306L556.273 640.294C555.083 660.328 537.487 676 516.18 676H40.156C17.9784 676 0 659.068 0 638.182V37.8182Z");
+  }
+  .login__swiper-img{
+    width: 592px;
+    object-fit: cover;
+    border-radius: 2.5rem;
+    clip-path: path("M0 37.8182C0 16.9318 17.9784 0 40.156 0H551.843C574.902 0 593.224 18.2478 591.936 39.9306L556.273 640.294C555.083 660.328 537.487 676 516.18 676H40.156C17.9784 676 0 659.068 0 638.182V37.8182Z");
   }
 }
