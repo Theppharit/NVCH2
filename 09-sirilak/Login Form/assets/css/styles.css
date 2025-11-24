@@ -217,7 +217,7 @@ img {
   position: absolute;
   right: 1.25rem;
   font-size: 1.5rem;
-  color:var(--title-color);
+  color: var(--title-color);
 }
 
 .login__eye{
@@ -249,7 +249,7 @@ img {
 /* For medium devices */
 @media screen and (min-width: 540px){
   .login__area{
-    grid-template-columns: 340;
+    grid-template-columns: 340px;
     justify-content: center;
   }
 }
