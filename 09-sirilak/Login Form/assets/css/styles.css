@@ -289,7 +289,7 @@ img {
     clip-path: path("M0 37.8182C0 16.9318 17.9784 0 40.156 0H551.843C574.902 0 593.224 18.2478 591.936 39.9306L556.273 640.294C555.083 660.328 537.487 676 516.18 676H40.156C17.9784 676 0 659.068 0 638.182V37.8182Z" );  
   }
   .login__swiper-data,
-  .login__swiper-socail{
+  .login__swiper-social{
     position: absolute;
     z-index: 10;
     color: var(--white-color);
@@ -324,7 +324,7 @@ img {
   .login__swiper-link:hover{
     transform: translateY(-.25rem);
   }
-  
+
   .login .swiper-pagination-bullets{
     width: initial;
     left: initial;
