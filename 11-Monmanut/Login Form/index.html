@@ -11,7 +11,7 @@
     />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -20,10 +20,52 @@
   </head>
   <body>
     <div class="login container grid">
-      <div class="login__contioner grid">
-        <div class="login__swipper"></div>
+      <div class="login__container grid">
+        <div class="login__swiper swiper">
+          <div class="login__swiper-data">
+            <p class="login__swiper-subtitle">Welcome Back</p>
 
-        <div class="login__area grid">
+            <h1 class="login__swiper-title">Hello Dev, <br> Sign In To Get Started</h1>
+          </div>
+
+          <div class="login__swiper-social">
+            <p class="login__swiper-subtitle">Our Social Media</p>
+
+            <div class="login__swiper-links">
+              <a href="https://www.facebook.com/bedimcode" target="_blank" class="login__swiper-link">
+                <i class="ri-facebook-box-fill"></i>
+              </a>
+
+              <a href="https://www.instagram.com/bedimcode/" target="_blank" class="login__swiper-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a href="https://x.com/bedimcode" target="_blank" class="login__swiper-link">
+                <i class="ri-twitter-x-fill"></i>
+              </a>
+
+              <a href="https://dribbble.com/" target="_blank" class="login__swiper-link">
+                <i class="ri-dribbble-line"></i>
+              </a>
+
+              <a href="https://github.com/bedimcode" target="_blank" class="login__swiper-link">
+                <i class="ri-github-line"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="swiper-wrapper">
+            <img src="assets/img/img-1.png" alt="image" class="login__swiper-img swiper-wrapper">
+
+            <img src="assets/img/img-2.png" alt="image" class="login__swiper-img swiper-wrapper">
+
+            <img src="assets/img/img-3.png" alt="image" class="login__swiper-img swiper-wrapper">
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+
+          <div class="login__area grid">
           <div class="login__data">
             <h1 class="login__title">Welcome Back 👋</h1>
 
@@ -34,17 +76,32 @@
             </button>
           </div>
 
-          <span class="login__line"></span>
+          <span class="login__line">or</span>
+          <form action="" method="post" class="login__form">
+                <div class="login__content grid">
+                  <div class="login__box">
+                      <input type="email" name="email" placeholder="Email" required class="login__input">
+                      <i class="ri-mail-ai-line"></i>
+                  </div>
+                  <div class="login__box">
+                      <input type="password" name="password" placeholder="Password" required class="login__input" id="loginPass">
+                      <i class="ri-eye-line login__eye" id="loginEye"></i>
+                  </div>
+                </div>  
+                <a href="#" class="login__forgot">Forgot Password?</a>
 
-          <form action="" method="post" class="login__form"></form>
+                <button type="submit" class="login__button">Log In</button>
+          </form>
 
-          <p class="login__switch"></p>
+          <p class="login__switch">
+            Don't have an account? <a href="#">Sign Up</a>
+          </p>
         </div>
       </div>
     </div>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
