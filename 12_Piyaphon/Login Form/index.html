@@ -6,8 +6,7 @@
 
     <!--=============== REMIXICONS ===============-->
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
     />
 
     <!--=============== SWIPER CSS ===============-->
@@ -21,7 +20,9 @@
   <body>
     <div class="login container grid">
       <div class="login__contioner grid">
-        <div class="login__swipper"></div>
+        <div class="login__swipper">
+
+        </div>
 
         <div class="login__area grid">
           <div class="login__data">
@@ -34,11 +35,29 @@
             </button>
           </div>
 
-          <span class="login__line"></span>
+          <span class="login__line">or</span>
 
-          <form action="" method="post" class="login__form"></form>
+          <form action="" method="post" class="login__form">
+            <div class="login__content grid">
+              <div class="login__box">
+                <input type="email" name="email"placeholder="email" required class="">
+                <i class="ri-mail-line"></i>
+              </div>
 
-          <p class="login__switch"></p>
+              <div class="login__box">
+                <input type="password" name="password"placeholder="password" required class="login__input" id="loginpass">
+                <i class="ri-eye-line login__eye" id="loginEye"></i>
+              </div>
+            </div>
+
+            <a href="#" class="login__forgot">forgor password?</a>
+            <button type="submit" class="login__button">Log In</button>
+          </form>
+
+          <p class="login__switch">
+            Dont'n have an account?
+            <a href="#" class="login__sign">Sign up</a>
+          </p>
         </div>
       </div>
     </div>
