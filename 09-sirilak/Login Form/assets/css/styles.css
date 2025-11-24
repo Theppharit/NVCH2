@@ -257,7 +257,7 @@ img {
 /* For large devices */
 @media screen and (min-width: 1150px){
   .container{
-    margin: inline: auto;
+    margin-inline: auto;
   }
 
   .login{
@@ -285,8 +285,8 @@ img {
   .login__swiper-img{
     width: 592px;
     object-fit: cover;
-    clip-path: path("M0 37.8182C0 16.9318 17.9784 0 40.156 0H551.843C574.902 0 593.224 18.2478 591.936 39.9306L556.273 640.294C555.083 660.328 537.487 676 516.18 676H40.156C17.9784 676 0 659.068 0 638.182V37.8182Z" );
     border-radius: 2.5rem;
+    clip-path: path("M0 37.8182C0 16.9318 17.9784 0 40.156 0H551.843C574.902 0 593.224 18.2478 591.936 39.9306L556.273 640.294C555.083 660.328 537.487 676 516.18 676H40.156C17.9784 676 0 659.068 0 638.182V37.8182Z" );  
   }
   .login__swiper-data,
   .login__swiper-socail{
@@ -307,7 +307,7 @@ img {
     font-size: var(--bigger-font-size);
     font-family: var(--second-font);
   }
-  .login__swiper-socail{
+  .login__swiper-social{
     left: 3rem;
     bottom: 4rem;
   }
@@ -316,7 +316,7 @@ img {
     align-items: center;
     column-gap: .75rem;
   }
-  .login__swiper-links{
+  .login__swiper-link{
     color: var(--white-color);
     font-size: 1.5rem;
     transition: transform .4s;
@@ -324,6 +324,7 @@ img {
   .login__swiper-link:hover{
     transform: translateY(-.25rem);
   }
+  
   .login .swiper-pagination-bullets{
     width: initial;
     left: initial;
