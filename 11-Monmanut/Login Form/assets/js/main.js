@@ -1,7 +1,7 @@
 /*=============== HIDE & SHOW PASSWORD ===============*/
 const showHiddenPass = (password, eye) => {
     const input = document.getElementById(password),
-          iconEye = document.getElementById(eye);
+          iconEye = document.getElementById(eye)
 
     iconEye.addEventListener('click', () => {
         input.type === 'password' ? input.type = 'text'
@@ -12,7 +12,7 @@ const showHiddenPass = (password, eye) => {
     })
 
 }
-showHiddenPass('loginPass','loginEye');
+showHiddenPass('loginPass','loginEye')
 /*=============== SWIPER IMAGES ===============*/
 const swiperLogin = new Swiper('.login__swiper', {
   loop: true,
@@ -26,8 +26,8 @@ const swiperLogin = new Swiper('.login__swiper', {
     clickable: true,
   },
 
-  auto: {
+  autoplay: {
     delay: 3000,
     disableOnInteraction: false,
   }
-})
+});
