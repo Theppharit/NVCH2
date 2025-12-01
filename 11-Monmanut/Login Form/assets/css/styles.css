@@ -231,7 +231,7 @@ img {
   width: max-content;
   margin: 0 0 1.5rem auto;
   font-size: var(--small-font-size);
-  color: var(--first-color);
+  color: rgb(255, 99, 38);
 }
 
 .login__switch {
@@ -269,7 +269,7 @@ img {
     column-gap: 5rem;
     width: 1110px;
     height: 700px;
-    background-color: var(--body-color);
+    background-color: rgb(119, 228, 255);
     box-shadow: 0 8px 24px hsl(41, 100%, 64%);
     padding: .75rem;
     border-radius: 3rem;
@@ -330,21 +330,18 @@ img {
   transform: translateY(-.25rem);
  }
 
-.login__swiper-pagination {
+.login .swiper-pagination-bullets {
   width: initial;
   left: initial;
   right: 5rem;
   bottom: 4rem;
  }
-
- .login__swiper-pagination-bullet {
-   background-color: var(--white-color);
-   opacity: .6;
-   transition: opacity .4s;
-  }
-  
- .login__swiper-pagination-bullet-active {
-   opacity: 1;
+ .login .swiper-pagination-bullet {
+  background-color: var(--white-color);
+  opacity: .6;
+  transition: opacity .4s;
+ }
+.login .swiper-pagination-bullet-active {
+  opacity: 1;
   }
 }
-
