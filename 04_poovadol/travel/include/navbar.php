@@ -14,7 +14,7 @@
                             <a href="#discover" class="nav__link">Discover</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#place" class="nav__link">sneakers</a>
+                            <a href="#place" class="nav__link">Sneakers</a>
                         </li>
                     </ul>
 
