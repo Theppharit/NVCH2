@@ -1,64 +1,10 @@
-<!DOCTYPE html>
-    <html lang="en">
-    
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
-
-        <!--=============== REMIXICONS ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
-        <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Responsive Website Travel</title>
-    </head>
-
-
+<?php include 'include/head.php';?>
     <body>
 
+<?php include 'include/navbar.php';?>
 
-
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">Travel</a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#discover" class="nav__link">Discover</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#place" class="nav__link">Places</a>
-                        </li>
-                    </ul>
-
-                    <div class="nav__dark">
-                        <!-- Theme change button -->
-                        <span class="change-theme-name">Dark mode</span>
-                        <i class="ri-moon-line change-theme" id="theme-button"></i>
-                    </div>
-
-                    <i class="ri-close-line nav__close" id="nav-close"></i>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-function-line"></i>
-                </div>
-            </nav>
-        </header>
+       
 
         
 
@@ -69,8 +15,8 @@
 
                 <div class="home__container container grid">
                     <div class="home__data">
-                        <span class="home__data-subtitle">Discover your place</span>
-                        <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
+                        <span class="home__data-subtitle">Discover your sneakers</span>
+                        <h1 class="home__data-title">Choose the <br> Best <b>sneakers <br>  for you.</b></h1>
                         <a href="#" class="button">Explore</a>
 
                     </div>
@@ -89,7 +35,7 @@
 
                     <div class="home__info">
                         <div>
-                            <span class="home__info-title">5 best places to visit</span>
+                            <span class="home__info-title">5 best sneakers</span>
                             <a href="" class="button button--flex button--link home__info-button">
                                 More <i class="ri-arrow-right-line"></i>
                             </a>
@@ -111,7 +57,7 @@
                             prices with special discounts, you choose the place we will guide you all the way to wait, get your 
                             place now.
                         </p>
-                        <a href="#" class="button">Reserve a place</a>
+                        <a href="#" class="button">Reserve a Sneakers</a>
                     </div>
 
                     <div class="about__img">
@@ -128,25 +74,25 @@
             
             <!--==================== DISCOVER ====================-->
             <section class="discover section" id="discover">
-                <h2 class="section__title">Discover the most <br> attractive places</h2>
+                <h2 class="section__title">Discover the most <br> attractive Sneakers</h2>
                 
                 <div class="discover__container container swiper-container">
                     <div class="swiper-wrapper">
                         <!--==================== DISCOVER 1 ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <img src="assets/img/530.webp" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Bali</h2>
-                                <span class="discover__description">24 tours available</span>
+                                <h2 class="discover__title">530</h2>
+                                <span class="discover__description"></span>
                             </div>
                         </div>
 
                         <!--==================== DISCOVER 2 ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <img src="assets/img/jordan5.webp" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Hawaii</h2>
-                                <span class="discover__description">15 tours available</span>
+                                <h2 class="discover__title">Jordan 5</h2>
+                                <span class="discover__description"></span>
                             </div>
                         </div>
 
@@ -155,16 +101,16 @@
                             <img src="assets/img/discover3.jpg" alt="" class="discover__img">
                             <div class="discover__data">
                                 <h2 class="discover__title">Hvar</h2>
-                                <span class="discover__description">18 tours available</span>
+                                <span class="discover__description"></span>
                             </div>
                         </div>
 
                         <!--==================== DISCOVER 4 ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <img src="assets/img/jordan4.webp" alt="" class="discover__img">
                             <div class="discover__data">
-                                <h2 class="discover__title">Whitehaven</h2>
-                                <span class="discover__description">32 tours available</span>
+                                <h2 class="discover__title">Jordan 4</h2>
+                                <span class="discover__description"></span>
                             </div>
                         </div>
                     </div>
@@ -204,14 +150,14 @@
                     </div>
                 </div>
             </section>
-
+            
             <!--==================== VIDEO ====================-->
             <section class="video section">
-                <h2 class="section__title">Video Tour</h2>
+                <h2 class="section__title">Video Sneakers</h2>
 
                 <div class="video__container container">
                     <p class="video__description">Find out more with our video of the most beautiful and 
-                        pleasant places for you and your family.
+                        pleasant Sneakers.
                     </p>
 
                     <div class="video__content">
@@ -228,7 +174,7 @@
 
             <!--==================== PLACES ====================-->
             <section class="place section" id="place">
-                <h2 class="section__title">Choose Your Place</h2>
+                <h2 class="section__title">Choose Your shoe</h2>
 
                 <div class="place__container container grid">
                     <!--==================== PLACES CARD 1 ====================-->
@@ -242,9 +188,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Bali</h3>
-                                <span class="place__subtitle">Indonesia</span>
-                                <span class="place__price">$2499</span>
+                                <h3 class="place__title">Nike</h3>
+                                <span class="place__subtitle">Nike Free 2025</span>
+                                <span class="place__price">$3700</span>
                             </div>
                         </div>
 
@@ -255,7 +201,7 @@
 
                     <!--==================== PLACES CARD 2 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place2.jpg" alt="" class="place__img">
+                        <img src="assets/img/sn02.png" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -264,9 +210,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Bora Bora</h3>
-                                <span class="place__subtitle">Polinesia</span>
-                                <span class="place__price">$1599</span>
+                                <h3 class="place__title">New Balance</h3>
+                                <span class="place__subtitle">New Balance 530</span>
+                                <span class="place__price">$5000</span>
                             </div>
                         </div>
 
@@ -277,7 +223,7 @@
 
                     <!--==================== PLACES CARD 3 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place3.jpg" alt="" class="place__img">
+                        <img src="assets/img/sn03.png" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -286,8 +232,8 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Hawaii</h3>
-                                <span class="place__subtitle">EE.UU</span>
+                                <h3 class="place__title">Adidas</h3>
+                                <span class="place__subtitle">Runfalcon 3.0 ｜ HP7559</span>
                                 <span class="place__price">$3499</span>
                             </div>
                         </div>
@@ -299,7 +245,7 @@
 
                     <!--==================== PLACES CARD 4 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place4.jpg" alt="" class="place__img">
+                        <img src="assets/img/place32.png" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -308,9 +254,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Whitehaven</h3>
-                                <span class="place__subtitle">Australia</span>
-                                <span class="place__price">$2499</span>
+                                <h3 class="place__title">Nike</h3>
+                                <span class="place__subtitle">Nike Dunk Low Next Nature</span>
+                                <span class="place__price">$3700</span>
                             </div>
                         </div>
 
@@ -321,7 +267,7 @@
 
                     <!--==================== PLACES CARD 5 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place5.jpg" alt="" class="place__img">
+                        <img src="assets/img/sn05.png" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -330,9 +276,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Hvar</h3>
-                                <span class="place__subtitle">Croacia</span>
-                                <span class="place__price">$1999</span>
+                                <h3 class="place__title">Adidas</h3>
+                                <span class="place__subtitle">Dropset 2 ｜ HQ8775</span>
+                                <span class="place__price">$3999</span>
                             </div>
                         </div>
 
@@ -385,99 +331,9 @@
             </section>
         </main>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section">
-            <div class="footer__container container grid">
-                <div class="footer__content grid">
-                    <div class="footer__data">
-                        <h3 class="footer__title">Travel</h3>
-                        <p class="footer__description">Travel you choose the <br> destination, 
-                            we offer you the <br> experience.
-                        </p>
-                        <div>
-                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
-                                <i class="ri-facebook-box-fill"></i>
-                            </a>
-                            <a href="https://twitter.com/" target="_blank" class="footer__social">
-                                <i class="ri-twitter-fill"></i>
-                            </a>
-                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
-                                <i class="ri-instagram-fill"></i>
-                            </a>
-                            <a href="https://www.youtube.com/" target="_blank" class="footer__social">
-                                <i class="ri-youtube-fill"></i>
-                            </a>
-                        </div>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">About</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">About Us</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Features</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">New & Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Company</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Team</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Plan y Pricing</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Become a member</a>
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <div class="footer__data">
-                        <h3 class="footer__subtitle">Support</h3>
-                        <ul>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">FAQs</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Support Center</a>
-                            </li>
-                            <li class="footer__item">
-                                <a href="" class="footer__link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="footer__rights">
-                    <p class="footer__copy">&#169; 2021 Bedimcode. All rigths reserved.</p>
-                    <div class="footer__terms">
-                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
-                        <a href="#" class="footer__terms-link">Privacy Policy</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-         <!--========== SCROLL UP ==========-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="ri-arrow-up-line scrollup__icon"></i>
-        </a>
-
-        <!--=============== SCROLL REVEAL===============-->
-        <script src="assets/js/scrollreveal.min.js"></script>
+<?php include 'include/footer.php';?>
+<?php include 'include/add.js.php';?>
         
-        <!--=============== SWIPER JS ===============-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
     </body>
+
 </html>
