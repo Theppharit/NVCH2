@@ -42,6 +42,7 @@
                     </div>
                 </div>
             </section>
+            
         </main>
 
 <?php include('include/footer.php') ?>
