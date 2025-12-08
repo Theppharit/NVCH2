@@ -476,7 +476,8 @@ input {
 }
 
 .discover__img {
-  transition: var(--img-transition);
+  width: 300px;
+  height: 300px;
 }
 
 .discover__img:hover {
@@ -570,7 +571,8 @@ input {
 
 /*=============== PLACES ===============*/
 .place__card, .place__img {
-  height: 230px;
+  height: 235px;
+  width: 185px;
 }
 
 .place__container {
