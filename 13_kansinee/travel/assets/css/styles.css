@@ -5,25 +5,28 @@
 :root {
   --header-height: 3rem;
 
-  /*========== Colors ==========*/
-  /* Change favorite color to match images */
-  /*Green dark 190 - Green 171 - Grren Blue 200*/
-  --hue-color: 190;
+  /*========== Colors (Theme: Ocean Blue) ==========*/
+  /* เปลี่ยน hue ให้เป็นโทนน้ำทะเล (ประมาณ 195) */
+  --hue-color: 195;
 
-  /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 64%, 22%);
-  --first-color-second: hsl(var(--hue-color), 64%, 22%);
-  --first-color-alt: hsl(var(--hue-color), 64%, 15%);
-  --title-color: hsl(var(--hue-color), 64%, 18%);
-  --text-color: hsl(var(--hue-color), 24%, 35%);
-  --text-color-light: hsl(var(--hue-color), 8%, 60%);
-  --input-color: hsl(var(--hue-color), 24%, 97%);
-  --body-color: hsl(var(--hue-color), 100%, 99%);
+  /* HSL ocean tones */
+  --first-color: hsl(var(--hue-color), 85%, 45%);        /* ฟ้าน้ำทะเลสด */
+  --first-color-second: hsl(var(--hue-color), 70%, 18%); /* ฟ้าเข้ม ocean */
+  --first-color-alt: hsl(var(--hue-color), 85%, 38%);    /* ฟ้าเข้มขึ้นตอน hover */
+
+  --title-color: hsl(var(--hue-color), 50%, 18%);        /* สีหัวข้อ */
+  --text-color: hsl(var(--hue-color), 25%, 35%);         /* เนื้อหา */
+  --text-color-light: hsl(var(--hue-color), 15%, 65%);
+
+  --input-color: hsl(var(--hue-color), 25%, 96%);
+  --body-color: hsl(var(--hue-color), 40%, 98%);          /* พื้นหลังฟ้าอ่อน */
   --white-color: #FFF;
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
 
-  /*========== Font and typography ==========*/
+  /* Scroll bar */
+  --scroll-bar-color: hsl(var(--hue-color), 20%, 85%);
+  --scroll-thumb-color: hsl(var(--hue-color), 70%, 45%);
+
+  /* Typography */
   --body-font: 'Open Sans', sans-serif;
   --title-font: 'Raleway', sans-serif;
   --biggest-font-size: 2.5rem;
@@ -34,11 +37,10 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
-  /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
+  /* Margins */
   --mb-0-25: .25rem;
   --mb-0-5: .5rem;
   --mb-0-75: .75rem;
@@ -48,38 +50,29 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
 
-  /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 
-  /*========== Hover overlay ==========*/
-  --img-transition: .3s;
+  --img-transition: .4s cubic-bezier(0.4, 0, 0.2, 1);
   --img-hidden: hidden;
   --img-scale: scale(1.1);
+
+  /* ocean shadow effect */
+  --box-shadow-hover: 0 8px 20px hsla(var(--hue-color), 70%, 20%, 0.35);
 }
 
-@media screen and (min-width: 968px) {
-  :root {
-    --biggest-font-size: 4rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.75rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
-  }
-}
-
-/*========== Variables Dark theme ==========*/
+/*========== Dark Theme (deep ocean) ==========*/
 body.dark-theme {
-  --first-color-second: hsl(var(--hue-color), 54%, 12%);
-  --title-color: hsl(var(--hue-color), 24%, 95%);
-  --text-color: hsl(var(--hue-color), 8%, 75%);
-  --input-color: hsl(var(--hue-color), 29%, 16%);
-  --body-color: hsl(var(--hue-color), 29%, 12%);
-  --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
-  --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  --first-color-second: hsl(var(--hue-color), 40%, 12%);
+  --title-color: hsl(var(--hue-color), 20%, 92%);
+  --text-color: hsl(var(--hue-color), 15%, 75%);
+  --input-color: hsl(var(--hue-color), 30%, 16%);
+  --body-color: hsl(var(--hue-color), 55%, 6%);  
+  --scroll-bar-color: hsl(var(--hue-color), 30%, 20%);
+  --scroll-thumb-color: hsl(var(--hue-color), 70%, 38%);
+  --box-shadow-hover: 0 8px 24px hsla(var(--hue-color), 70%, 10%, 0.5);
 }
+
 
 /*========== Button Dark/Light ==========*/
 .nav__dark {
@@ -98,6 +91,12 @@ body.dark-theme {
 .change-theme {
   cursor: pointer;
   font-size: 1rem;
+  transition: .3s;
+}
+/* เพิ่ม effect หมุนตอนกดเปลี่ยนธีม */
+.change-theme:hover {
+    color: var(--first-color);
+    transform: rotate(15deg);
 }
 
 .change-theme-name {
@@ -121,6 +120,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  transition: background-color .4s, color .4s; /* เพิ่ม transition ตอนเปลี่ยนธีม */
 }
 
 h1, h2, h3 {
@@ -194,6 +194,7 @@ input {
   left: 0;
   z-index: var(--z-fixed);
   background-color: transparent;
+  transition: .4s; /* เพิ่ม transition */
 }
 
 /*=============== NAV ===============*/
@@ -206,10 +207,16 @@ input {
 
 .nav__logo, .nav__toggle {
   color: var(--white-color);
+  transition: .3s;
 }
 
 .nav__logo {
   font-weight: var(--font-semi-bold);
+}
+/* เพิ่มลูกเล่นให้โลโก้ */
+.nav__logo:hover {
+    color: var(--first-color);
+    text-shadow: 0 0 10px hsla(var(--hue-color), 85%, 40%, 0.3);
 }
 
 .nav__toggle {
@@ -231,7 +238,7 @@ input {
     height: 100%;
     box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
     padding: 3rem;
-    transition: .4s;
+    transition: .4s cubic-bezier(0.4, 0, 0.2, 1); /* ใช้ cubic-bezier ให้เมนูเลื่อนสวยขึ้น */
   }
 }
 
@@ -245,11 +252,30 @@ input {
   color: var(--text-color-light);
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
+  transition: .3s;
+  position: relative; /* จำเป็นสำหรับ animated underline */
+}
+
+/* Nav Link Effect ใหม่: Animated Underline */
+.nav__link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.3rem;
+    width: 0;
+    height: 2px;
+    background-color: var(--first-color);
+    transition: .3s ease-in-out;
 }
 
 .nav__link:hover {
-  color: var(--text-color);
+  color: var(--title-color);
 }
+
+.nav__link:hover::after {
+    width: 100%; /* ขีดเส้นใต้ขยายออกเมื่อ hover */
+}
+
 
 .nav__close {
   position: absolute;
@@ -258,6 +284,11 @@ input {
   font-size: 1.5rem;
   color: var(--title-color);
   cursor: pointer;
+  transition: .3s;
+}
+.nav__close:hover {
+    color: var(--first-color);
+    transform: rotate(90deg);
 }
 
 /* show menu */
@@ -268,7 +299,7 @@ input {
 /* Change background header */
 .scroll-header {
   background-color: var(--body-color);
-  box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
+  box-shadow: 0 2px 4px rgba(0,0,0,.1); /* เงาที่นุ่มขึ้น */
 }
 
 .scroll-header .nav__logo,
@@ -276,21 +307,17 @@ input {
   color: var(--title-color);
 }
 
-/* Active link */
+/* Active link แบบใหม่ (ใช้ Animated Underline แทนแบบเดิม) */
 .active-link {
-  position: relative;
   color: var(--title-color);
 }
-
-.active-link::before {
-  content: '';
-  position: absolute;
-  background-color: var(--title-color);
-  width: 100%;
-  height: 2px;
-  bottom: -.75rem;
-  left: 0;
+/* ลบ active-link::before แบบเก่าออก */
+/* แล้วใช้แบบใหม่ที่สร้างไว้ใน .nav__link::after แทน */
+.active-link::after {
+    width: 100%;
+    background-color: var(--title-color); /* หรือใช้ var(--first-color) ถ้าชอบสีเขียว */
 }
+
 
 /*=============== HOME ===============*/
 .home__img {
@@ -303,6 +330,18 @@ input {
   object-position: 83%;
 }
 
+/* เพิ่ม Overlay สีเข้มทับรูป Home เพื่อให้ Text อ่านง่ายและดูเข้มขึ้น */
+.home__img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, hsla(var(--hue-color), 60%, 10%, 0.4), hsla(var(--hue-color), 60%, 5%, 0.8));
+    pointer-events: none; /* เพื่อให้คลิกทะลุได้ */
+}
+
 .home__container {
   position: relative;
   height: calc(100vh - var(--header-height));
@@ -310,11 +349,12 @@ input {
   row-gap: 3rem;
 }
 
-.home__data-subtitle, 
-.home__data-title, 
-.home__social-link, 
+.home__data-subtitle,
+.home__data-title,
+.home__social-link,
 .home__info {
   color: var(--white-color);
+  z-index: var(--z-tooltip); /* ให้อยู่เหนือ overlay */
 }
 
 .home__data-subtitle {
@@ -327,6 +367,7 @@ input {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2-5);
+  text-shadow: 0 4px 8px rgba(0,0,0,0.3); /* เพิ่มเงาให้ข้อความดูมีมิติ */
 }
 
 .home__social {
@@ -338,6 +379,11 @@ input {
 .home__social-link {
   font-size: 1.2rem;
   width: max-content;
+  transition: .3s;
+}
+.home__social-link:hover {
+    color: var(--first-color);
+    transform: translateY(-3px);
 }
 
 .home__info {
@@ -350,6 +396,9 @@ input {
   right: 0;
   bottom: 1rem;
   width: 228px;
+  /* เพิ่มเงาและขอบมนเล็กน้อยให้กล่อง info */
+  box-shadow: var(--box-shadow-hover);
+  border-radius: 0.5rem 0 0 0.5rem;
 }
 
 .home__info-title {
@@ -365,6 +414,7 @@ input {
 
 .home__info-overlay {
   overflow: var(--img-hidden);
+  border-radius: 0.25rem; /* ขอบมนรูปเล็ก */
 }
 
 .home__info-img {
@@ -376,18 +426,25 @@ input {
   transform: var(--img-scale);
 }
 
-/*=============== BUTTONS ===============*/
+/*=============== BUTTONS (ลูกเล่นใหม่: Glow & Lift) ===============*/
 .button {
   display: inline-block;
   background-color: var(--first-color);
   color: var(--white-color);
   padding: 1rem 2rem;
   font-weight: var(--font-semi-bold);
-  transition: .3s;
+  transition: .4s;
+  border-radius: 0.5rem; /* ขอบมนทันสมัย */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
 }
 
 .button:hover {
   background-color: var(--first-color-alt);
+  /* เพิ่ม Glow Effect สีเขียว */
+  box-shadow: 0 4px 15px hsla(var(--hue-color), 85%, 40%, 0.5);
+  transform: translateY(-3px); /* ยกปุ่มขึ้น */
 }
 
 .button--flex {
@@ -399,10 +456,15 @@ input {
 .button--link {
   background: none;
   padding: 0;
+  color: var(--first-color);
 }
 
 .button--link:hover {
   background: none;
+  color: var(--first-color-alt);
+  text-decoration: underline;
+  box-shadow: none;
+  transform: none;
 }
 
 /*=============== ABOUT ===============*/
@@ -427,6 +489,8 @@ input {
 
 .about__img-overlay {
   overflow: var(--img-hidden);
+  border-radius: 1rem; /* ขอบมน */
+  box-shadow: var(--box-shadow-hover); /* เพิ่มเงาให้รูป */
 }
 
 .about__img-one {
@@ -437,30 +501,40 @@ input {
   width: 180px;
 }
 
-.about__img-one, 
+.about__img-one,
 .about__img-two {
   transition: var(--img-transition);
 }
 
-.about__img-one:hover, 
+.about__img-one:hover,
 .about__img-two:hover {
   transform: var(--img-scale);
 }
 
-/*=============== DISCOVER ===============*/
+/*=============== DISCOVER (ลูกเล่นใหม่: Card Lift) ===============*/
 .discover__card {
   position: relative;
   width: 200px;
   overflow: var(--img-hidden);
+  border-radius: 1rem; /* ขอบมน */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: .4s ease; /* เพิ่ม transition ให้การ์ด */
+}
+
+/* เมื่อ Hover ที่การ์ด ให้ยกการ์ดขึ้นและเงาชัดขึ้น */
+.discover__card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--box-shadow-hover);
 }
 
 .discover__data {
   position: absolute;
   bottom: 1.5rem;
   left: 1rem;
+  z-index: 10; /* ให้อยู่เหนือ gradient */
 }
 
-.discover__title, 
+.discover__title,
 .discover__description {
   color: var(--white-color);
 }
@@ -478,8 +552,20 @@ input {
 .discover__img {
   transition: var(--img-transition);
 }
+/* เพิ่ม Gradient สีเขียวเข้มที่ด้านล่างรูปเพื่อให้ตัวหนังสืออ่านง่าย */
+.discover__card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, hsla(var(--hue-color), 50%, 5%, 0.8), transparent);
+    pointer-events: none;
+}
 
-.discover__img:hover {
+
+.discover__card:hover .discover__img {
   transform: var(--img-scale);
 }
 
@@ -506,6 +592,7 @@ input {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   margin-bottom: var(--mb-0-5);
+  color: var(--first-color); /* เน้นตัวเลขด้วยสีเขียว */
 }
 
 .experience__description {
@@ -517,18 +604,20 @@ input {
   padding-bottom: 2rem;
 }
 
-.experience__img-one, 
+.experience__img-one,
 .experience__img-two {
   transition: var(--img-transition);
 }
 
-.experience__img-one:hover, 
+.experience__img-one:hover,
 .experience__img-two:hover {
   transform: var(--img-scale);
 }
 
 .experience__overlay {
   overflow: var(--img-hidden);
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow-hover);
 }
 
 .experience__overlay:nth-child(1) {
@@ -555,6 +644,9 @@ input {
 
 .video__content {
   position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--box-shadow-hover);
 }
 
 .video__button {
@@ -562,13 +654,14 @@ input {
   right: 1rem;
   bottom: -1rem;
   padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
 }
 
 .video__button-icon {
   font-size: 1.2rem;
 }
 
-/*=============== PLACES ===============*/
+/*=============== PLACES (ลูกเล่นใหม่: Card Lift & Gradient) ===============*/
 .place__card, .place__img {
   height: 230px;
 }
@@ -581,6 +674,14 @@ input {
 .place__card {
   position: relative;
   overflow: var(--img-hidden);
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: .4s ease;
+}
+/* เพิ่ม effect ยกการ์ด */
+.place__card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--box-shadow-hover);
 }
 
 .place__card:hover .place__img {
@@ -605,7 +706,21 @@ input {
   flex-direction: column;
   justify-content: space-between;
   padding: .75rem .75rem 1rem;
+  z-index: 10;
 }
+
+/* Gradient overlay สำหรับ place card เพื่อให้ text ชัด */
+.place__card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), hsla(var(--hue-color), 70%, 5%, 0.7));
+    pointer-events: none;
+}
+
 
 .place__rating {
   align-self: flex-end;
@@ -616,6 +731,7 @@ input {
 .place__rating-icon {
   font-size: .75rem;
   margin-right: var(--mb-0-25);
+  color: var(--first-color); /* ดาวสีเขียว */
 }
 
 .place__rating-number {
@@ -641,6 +757,7 @@ input {
   right: 0;
   bottom: 0;
   padding: .75rem 1rem;
+  border-radius: 1rem 0 1rem 0; /* ปุ่มทรงเก๋ๆ */
 }
 
 /*=============== SUBSCRIBE ===============*/
@@ -649,7 +766,7 @@ input {
   padding: 2.5rem 0;
 }
 
-.subscribe__title, 
+.subscribe__title,
 .subscribe__description {
   color: var(--white-color);
 }
@@ -664,6 +781,7 @@ input {
   padding: .5rem;
   display: flex;
   justify-content: space-between;
+  border-radius: 0.5rem; /* input มน */
 }
 
 .subscribe__input {
@@ -674,7 +792,7 @@ input {
 }
 
 .subscribe__input::placeholder {
-  color: var(--text-color);
+  color: var(--text-color-light);
 }
 
 /*=============== SPONSORS ===============*/
@@ -684,14 +802,19 @@ input {
   row-gap: 3.5rem;
 }
 
-.sponsor__content:hover .sponsor__img {
-  filter: invert(0.5);
-}
-
+/* ปรับการ invert สีโลโก้สปอนเซอร์ให้เข้ากับธีมมืด/สว่าง */
 .sponsor__img {
   width: 90px;
-  filter: invert(0.7);
+  opacity: 0.6; /* จางลงนิดนึง */
   transition: var(--img-transition);
+}
+body.dark-theme .sponsor__img {
+    filter: invert(1); /* ในธีมมืดให้กลับสีเป็นขาว */
+}
+
+.sponsor__content:hover .sponsor__img {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 /*=============== FOOTER ===============*/
@@ -704,13 +827,14 @@ input {
   row-gap: 2rem;
 }
 
-.footer__title, 
+.footer__title,
 .footer__subtitle {
   font-size: var(--h3-font-size);
 }
 
 .footer__title {
   margin-bottom: var(--mb-0-5);
+  color: var(--first-color); /* หัวข้อ Footer สีเขียว */
 }
 
 .footer__description {
@@ -721,7 +845,13 @@ input {
   font-size: 1.25rem;
   color: var(--title-color);
   margin-right: var(--mb-1-25);
+  transition: .3s;
 }
+.footer__social:hover {
+    color: var(--first-color);
+    transform: translateY(-3px);
+}
+
 
 .footer__subtitle {
   margin-bottom: var(--mb-1);
@@ -733,10 +863,12 @@ input {
 
 .footer__link {
   color: var(--text-color);
+  transition: .3s;
 }
 
 .footer__link:hover {
-  color: var(--title-color);
+  color: var(--first-color);
+  padding-left: 5px; /* ขยับนิดนึงตอน hover */
 }
 
 .footer__rights {
@@ -761,7 +893,7 @@ input {
   color: var(--text-color);
 }
 
-/*========== SCROLL UP ==========*/
+/*========== SCROLL UP (ลูกเล่นใหม่: Pulse) ==========*/
 .scrollup {
   position: fixed;
   right: 1rem;
@@ -772,11 +904,14 @@ input {
   opacity: .9;
   z-index: var(--z-tooltip);
   transition: .4s;
+  border-radius: 0.5rem;
 }
 
 .scrollup:hover {
   background-color: var(--first-color-alt);
   opacity: 1;
+  transform: translateY(-5px); /* ยกขึ้นนิดนึง */
+  box-shadow: 0 4px 12px hsla(var(--hue-color), 85%, 40%, 0.4);
 }
 
 .scrollup__icon {
@@ -789,7 +924,7 @@ input {
   bottom: 5rem;
 }
 
-/*=============== SCROLL BAR ===============*/
+/*=============== SCROLL BAR (ธีมเขียวเข้ม) ===============*/
 ::-webkit-scrollbar {
   width: .60rem;
   background-color: var(--scroll-bar-color);
@@ -797,11 +932,18 @@ input {
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--scroll-thumb-color);
+  border-radius: .5rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--text-color-light);
+  background-color: var(--first-color); /* Hover แล้วเป็นสีเขียวสด */
 }
+/* Firefox support */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-thumb-color) var(--scroll-bar-color);
+}
+
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
@@ -859,6 +1001,11 @@ input {
   .nav__link:hover {
     color: var(--white-color);
   }
+  /* Active link บนจอใหญ่ */
+  .active-link::after {
+      background-color: var(--white-color);
+  }
+
   .nav__dark {
     position: initial;
   }
@@ -879,18 +1026,18 @@ input {
   .change-theme {
     color: var(--white-color);
   }
-  .active-link::before {
-    background-color: var(--white-color);
-  }
+  /* ลบ active-link::before เดิมออก */
+
   .scroll-header .nav__link {
     color: var(--text-color);
   }
   .scroll-header .active-link {
     color: var(--title-color);
   }
-  .scroll-header .active-link::before {
-    background-color: var(--title-color);
+  .scroll-header .active-link::after {
+      background-color: var(--first-color);
   }
+
   .scroll-header .change-theme {
     color: var(--text-color);
   }
@@ -949,6 +1096,7 @@ input {
   .subscribe__container {
     background-color: var(--first-color-second);
     padding: 3.5rem 0;
+    border-radius: 1rem; /* เพิ่มขอบมน */
   }
   .subscribe__input {
     padding: 0 .5rem;
