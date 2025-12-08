@@ -79,6 +79,7 @@ body.dark-theme {
   --body-color: hsl(var(--hue-color), 29%, 12%);
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+  background-color: black;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -119,7 +120,8 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
+  /* background-color: var(--body-color); */
+  background-color: #707b85;
   color: var(--text-color);
 }
 
@@ -571,6 +573,7 @@ input {
 /*=============== PLACES ===============*/
 .place__card, .place__img {
   height: 230px;
+  /* color: black; */
 }
 
 .place__container {
@@ -592,7 +595,7 @@ input {
 }
 
 .place__content, .place__title {
-  color: var(--white-color);
+   color: #d3ae20;
 }
 
 .place__content {
@@ -620,10 +623,12 @@ input {
 
 .place__rating-number {
   font-size: var(--small-font-size);
+  color: #d3ae20;
 }
 
 .place__subtitle, .place__price {
   display: block;
+  color: rgb(39 174 175);
 }
 
 .place__title {
