@@ -5,26 +5,26 @@
 :root {
   --header-height: 3rem;
 
-  /*========== Colors (Theme: Ocean Blue) ==========*/
-  /* เปลี่ยน hue ให้เป็นโทนน้ำทะเล (ประมาณ 195) */
-  --hue-color: 195;
+  /*========== Colors (Theme: Forest Green + Black) ==========*/
+  /* โทนเขียวป่าลึก (Hue ~ 140–150) */
+  --hue-color: 145;
 
-  /* HSL ocean tones */
-  --first-color: hsl(var(--hue-color), 85%, 45%);        /* ฟ้าน้ำทะเลสด */
-  --first-color-second: hsl(var(--hue-color), 70%, 18%); /* ฟ้าเข้ม ocean */
-  --first-color-alt: hsl(var(--hue-color), 85%, 38%);    /* ฟ้าเข้มขึ้นตอน hover */
+  /* HSL forest tones */
+  --first-color: hsl(var(--hue-color), 60%, 32%);        /* เขียวป่าธรรมชาติ */
+  --first-color-second: hsl(var(--hue-color), 32%, 14%); /* เขียวดำเข้ม */
+  --first-color-alt: hsl(var(--hue-color), 60%, 26%);    /* โทนเข้มขึ้นตอน hover */
 
-  --title-color: hsl(var(--hue-color), 50%, 18%);        /* สีหัวข้อ */
-  --text-color: hsl(var(--hue-color), 25%, 35%);         /* เนื้อหา */
-  --text-color-light: hsl(var(--hue-color), 15%, 65%);
+  --title-color: hsl(var(--hue-color), 25%, 20%);        /* สีหัวข้อเขียวเข้มนิดๆ */
+  --text-color: hsl(var(--hue-color), 10%, 35%);         /* สีเนื้อหานุ่มๆ */
+  --text-color-light: hsl(var(--hue-color), 10%, 70%);
 
-  --input-color: hsl(var(--hue-color), 25%, 96%);
-  --body-color: hsl(var(--hue-color), 40%, 98%);          /* พื้นหลังฟ้าอ่อน */
-  --white-color: #FFF;
+  --input-color: hsl(var(--hue-color), 15%, 94%);        /* เขียวเทาอ่อน */
+  --body-color: hsl(var(--hue-color), 25%, 97%);         /* พื้นหลังเขียวอ่อนธรรมชาติ */
+  --white-color: #ffffff;
 
   /* Scroll bar */
-  --scroll-bar-color: hsl(var(--hue-color), 20%, 85%);
-  --scroll-thumb-color: hsl(var(--hue-color), 70%, 45%);
+  --scroll-bar-color: hsl(var(--hue-color), 15%, 85%);
+  --scroll-thumb-color: hsl(var(--hue-color), 45%, 30%);
 
   /* Typography */
   --body-font: 'Open Sans', sans-serif;
@@ -57,20 +57,20 @@
   --img-hidden: hidden;
   --img-scale: scale(1.1);
 
-  /* ocean shadow effect */
-  --box-shadow-hover: 0 8px 20px hsla(var(--hue-color), 70%, 20%, 0.35);
+  /* forest shadow effect */
+  --box-shadow-hover: 0 8px 20px hsla(var(--hue-color), 60%, 15%, 0.35);
 }
 
-/*========== Dark Theme (deep ocean) ==========*/
+/*========== Dark Theme (Deep Forest) ==========*/
 body.dark-theme {
-  --first-color-second: hsl(var(--hue-color), 40%, 12%);
+  --first-color-second: hsl(var(--hue-color), 25%, 10%);  /* เขียวดำลึก */
   --title-color: hsl(var(--hue-color), 20%, 92%);
-  --text-color: hsl(var(--hue-color), 15%, 75%);
-  --input-color: hsl(var(--hue-color), 30%, 16%);
-  --body-color: hsl(var(--hue-color), 55%, 6%);  
-  --scroll-bar-color: hsl(var(--hue-color), 30%, 20%);
-  --scroll-thumb-color: hsl(var(--hue-color), 70%, 38%);
-  --box-shadow-hover: 0 8px 24px hsla(var(--hue-color), 70%, 10%, 0.5);
+  --text-color: hsl(var(--hue-color), 15%, 78%);
+  --input-color: hsl(var(--hue-color), 18%, 14%);
+  --body-color: hsl(var(--hue-color), 20%, 6%);           /* ดำเขียวธรรมชาติ */
+  --scroll-bar-color: hsl(var(--hue-color), 15%, 22%);
+  --scroll-thumb-color: hsl(var(--hue-color), 40%, 28%);
+  --box-shadow-hover: 0 8px 24px hsla(var(--hue-color), 60%, 8%, 0.5);
 }
 
 
