@@ -7,7 +7,7 @@
     <main class="main">
         <!--==================== HOME ====================-->
         <section class="home" id="home">
-            <img src="assets/img/home1.jpg" alt="" class="home__img">
+            <img src="assets/img/4" alt="" class="home__img">
 
             <div class="home__container container grid">
                 <div class="home__data">
