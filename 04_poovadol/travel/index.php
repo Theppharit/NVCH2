@@ -50,4 +50,3 @@
 
 </body>
 
-<!-- http://localhost/NVCH2/13_kansinee/travel/index.php -->
