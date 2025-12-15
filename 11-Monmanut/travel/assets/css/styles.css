@@ -15,7 +15,7 @@
   --first-color-second: #E7A4A9;
   --first-color-alt: hsl(var(--hue-color), 64%, 15%);
   --title-color: hsl(var(--hue-color), 64%, 18%);
-  --text-color: hsl(var(--hue-color), 24%, 35%);
+  --text-color: rgba(153, 34, 34, 0.533);
   --text-color-light: hsl(var(--hue-color), 8%, 60%);
   --input-color: hsl(var(--hue-color), 24%, 97%);
   --body-color: #FAF0E6;
@@ -204,8 +204,11 @@ input {
   align-items: center;
 }
 
+.nav a {
+    color: #00af3a;
+}
 .nav__logo, .nav__toggle {
-  color: var(--white-color);
+  color: var(--title-color);
 }
 
 .nav__logo {
@@ -242,13 +245,13 @@ input {
 }
 
 .nav__link {
-  color: var(--text-color-light);
+  color: var(--title-color);
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
 }
 
 .nav__link:hover {
-  color: var(--first-color);
+  color: var(--title-color);
 }
 
 .nav__close {
