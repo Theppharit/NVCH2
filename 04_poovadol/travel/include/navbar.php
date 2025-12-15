@@ -1,9 +1,7 @@
- 
- 
- 
+
  <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Sneakers</a>
+                <a href="index.php" class="nav__logo">Sneakers</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
