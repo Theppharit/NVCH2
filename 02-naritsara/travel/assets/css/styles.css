@@ -193,7 +193,7 @@ input {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: transparent;
+   background-color: transparent;
 }
 
 /*=============== NAV ===============*/
@@ -202,6 +202,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #3d789b;
 }
 
 .nav__logo, .nav__toggle {

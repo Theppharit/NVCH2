@@ -17,5 +17,5 @@
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive Website Travel</title>
+        <title>Responsive Website Sneakers</title>
     </head>
