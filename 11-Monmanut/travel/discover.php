@@ -4,7 +4,7 @@
     <body>
 <?php include('include/navbar.php') ?>
 
-        <main class="main">
+             <main class="main" id="discover">
             <!--==================== DISCOVER ====================-->
             <section class="discover section" id="discover">
                 <h2 class="section__title">Find Your Purr-fect Match <br> Only at Our Café</h2>
@@ -107,7 +107,7 @@
         </main>
 
 <?php include('include/footer.php') ?>
-<?php include('include/add-Video.php') ?>
+<?php include('include/add-video.php') ?>
 <?php include('include/add-js.php') ?>
     </body>
 </html>

@@ -1,1 +1,2 @@
-<script src="assets/js/add-Video.js"></script>
+        <!--=============== VIDEO JS ===============-->
+        <script src="assets/js/add-video.js"></script>

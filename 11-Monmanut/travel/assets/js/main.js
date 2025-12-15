@@ -51,7 +51,6 @@ let swiper = new Swiper(".discover__container", {
     },
 })
 
- 
 /*==================== SHOW SCROLL UP ====================*/ 
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');

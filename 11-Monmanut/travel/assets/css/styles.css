@@ -205,7 +205,7 @@ input {
 }
 
 .nav a {
-    color: #00af3a;
+    color: #B55B36;
 }
 .nav__logo, .nav__toggle {
   color: var(--title-color);
@@ -238,6 +238,11 @@ input {
   }
 }
 
+.nav__link,
+.nav__logo {
+    color: #fff;
+}
+
 .nav__list {
   display: flex;
   flex-direction: column;
@@ -245,13 +250,13 @@ input {
 }
 
 .nav__link {
-  color: var(--title-color);
+  color: var(--text-color);
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
 }
 
 .nav__link:hover {
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 .nav__close {
@@ -270,7 +275,7 @@ input {
 
 /* Change background header */
 .scroll-header {
-  background-color: var(--body-color);
+  background-color: #fdeded;
   box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
 }
 
