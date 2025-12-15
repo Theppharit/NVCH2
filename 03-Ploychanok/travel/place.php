@@ -1,6 +1,7 @@
 <?php include('include/head.php') ?>
 <body>
 <?php include('include/navbar.php') ?>
+<main>
 <section class="place section" id="place">
 
 
@@ -119,5 +120,6 @@
                     </div>
                 </div>
             </section>
+</main>
 </body>
 <?php include('include/footer.php') ?> 
