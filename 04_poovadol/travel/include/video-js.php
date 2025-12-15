@@ -1,0 +1,1 @@
+        <script src="assets/js/video.js"></script>
