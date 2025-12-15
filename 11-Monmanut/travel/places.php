@@ -4,7 +4,7 @@
     <body>
 <?php include('include/navbar.php') ?>
 
-        <main class="main">
+             <main class="main" id="place">
             <!--==================== PLACES ====================-->
             <section class="place section" id="place">
                 <h2 class="section__title">Choose Your Favorite Menu</h2>

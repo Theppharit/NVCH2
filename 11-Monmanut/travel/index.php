@@ -3,7 +3,8 @@
 
     <body>
 <?php include('include/navbar.php') ?>
-        <main class="main">
+
+             <main class="main" id="index">
             <!--==================== HOME ====================-->
             <section class="home" id="home">
                 <img src="assets/img/Caturday-Cat-Cafe_16.webp" alt="" class="home__img">
