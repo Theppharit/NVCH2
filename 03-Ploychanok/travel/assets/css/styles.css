@@ -54,7 +54,7 @@
 
   /*========== Hover overlay ==========*/
   --img-transition: .3s;
-  --img-hidden: hidden;
+  --img-hidden: visible;
   --img-scale: scale(1.1);
 }
 
