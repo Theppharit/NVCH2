@@ -1,6 +1,6 @@
 
 <?php include 'include/head.php';?>
-    <body>
+   
 
 <?php include 'include/navbar.php';?>
 

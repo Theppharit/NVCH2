@@ -1,3 +1,6 @@
+ 
+ 
+ 
  <section class="place section" id="place">
                 <h2 class="section__title">Choose Your shoe</h2>
 

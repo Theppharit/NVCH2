@@ -1,3 +1,6 @@
+ 
+ 
+ 
  <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">Sneakers</a>
@@ -5,16 +8,16 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
+                            <a href="index.php" class="nav__link active-link">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
+                            <a href="about.php" class="nav__link">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#discover" class="nav__link">Discover</a>
+                            <a href="discover.php" class="nav__link">Discover</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#place" class="nav__link">Sneakers</a>
+                            <a href="sneakers.php" class="nav__link">Sneakers</a>
                         </li>
                     </ul>
 
