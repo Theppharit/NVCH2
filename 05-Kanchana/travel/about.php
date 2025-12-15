@@ -4,9 +4,9 @@
 
         <?php include('include/navbar.php') ?>
 
-        <main class="main">            
+        <main class="main" id="about">            
             <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
+            <section class="about section">
                 <div class="about__container container grid">
                     <div class="about__data">
                         <h2 class="section__title about__title">More Information <br> About Camping Sites </h2>
@@ -28,9 +28,11 @@
                         </div>
                     </div>
                 </div>
-            </section></main>
+            </section>
+        </main>
 
         <?php include('include/footer.php') ?>
+
         <?php include('include/add-js.php') ?>
 
 

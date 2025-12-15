@@ -4,9 +4,9 @@
 
         <?php include('include/navbar.php') ?>
 
-        <main class="main">
+        <main class="main" id="discover">
                         <!--==================== DISCOVER ====================-->
-            <section class="discover section" id="discover">
+            <section class="discover section">
                 <h2 class="section__title">Discover the Tourist Attractions in <br> Khao Yai National Park</h2>
                 
                 <div class="discover__container container swiper-container">
@@ -107,6 +107,7 @@
         </main>
 
         <?php include('include/footer.php') ?>
+        <?php include('include/add-video.php') ?>
         <?php include('include/add-js.php') ?>
 
 
