@@ -248,7 +248,7 @@ input {
 }
 
 .nav__link:hover {
-  color: var(--text-color);
+  color: var(--first-color);
 }
 
 .nav__close {
@@ -273,7 +273,7 @@ input {
 
 .scroll-header .nav__logo,
 .scroll-header .nav__toggle {
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 /* Active link */
