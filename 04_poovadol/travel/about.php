@@ -1,9 +1,8 @@
-<?php include 'include/head.php'; ?>
+<?php include('include/head.php') ?>
 
 
-<?php include 'include/navbar.php'; ?>
+<?php include('include/navbar.php') ?>
 
-<!-- <?php include '/04_poovadol/travel/index.php'; ?> -->
 
 
 
@@ -30,6 +29,6 @@
         </div>
     </div>
 </section>
-<?php include 'discover.php'; ?>
+<?php include ('discover.php') ?>
 <!--==================== PLACES ====================-->
-<?php include 'sneakers.php'; ?>
+<?php include ('sneakers.php') ?>

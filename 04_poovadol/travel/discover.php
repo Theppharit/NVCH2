@@ -1,9 +1,9 @@
-<?php include 'include/head.php'; ?>
+<?php include ('include/head.php') ?>
 
 
-<?php include 'include/navbar.php'; ?>
+<?php include ('include/navbar.php') ?>
 
-<?php include 'about.php'; ?>
+<?php include ('about.php') ?>
 
 
 <section class="discover section" id="discover">
