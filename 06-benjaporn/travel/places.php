@@ -4,10 +4,11 @@
 
         <?php include('include/navbar.php') ?>
 
-        <main class="main">       
+       <main class="main" id="place">    
+          
             <!--==================== PLACES ====================-->
-            <section class="place section" id="place">
-                <h2 class="section__title">Accommodation on the island</h2>
+            <section class="place section" >
+                <h2 class="section__title">Choose Your Place</h2>
 
                 <div class="place__container container grid">
                     <!--==================== PLACES CARD 1 ====================-->
@@ -21,9 +22,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">TheBlueSkyResort</h3>
-                                <span class="place__subtitle">เกาะพยาม</span>
-                                <span class="place__price">3999฿</span>
+                                <h3 class="place__title"> น้ำตกห้วยแม่ขมิ้น </h3>
+                                <span class="place__subtitle">กาญจนบุรี</span>
+                                <span class="place__price"></span>
                             </div>
                         </div>
 
@@ -34,7 +35,7 @@
 
                     <!--==================== PLACES CARD 2 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place2-2.jpg" alt="" class="place__img">
+                        <img src="assets/img/place2-1.jpg" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -43,9 +44,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">King Paradise Payam Resort</h3>
-                                <span class="place__subtitle">เกาะพยาม</span>
-                                <span class="place__price">1400฿</span>
+                                <h3 class="place__title">น้ำตกแม่สุรินทร์ </h3>
+                                <span class="place__subtitle">แม่ฮ่องสอน</span>
+                                <span class="place__price"></span>
                             </div>
                         </div>
 
@@ -56,7 +57,7 @@
 
                     <!--==================== PLACES CARD 3 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place3-3.jpg" alt="" class="place__img">
+                        <img src="assets/img/place3-1.jpg" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -65,9 +66,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Phayamas Private Beach Resort</h3>
-                                <span class="place__subtitle">เกาะพยาม</span>
-                                <span class="place__price">1500฿</span>
+                                <h3 class="place__title">น้ำตกสะปัน</h3>
+                                <span class="place__subtitle"> น่าน</span>
+                                <span class="place__price"></span>
                             </div>
                         </div>
 
@@ -78,7 +79,7 @@
 
                     <!--==================== PLACES CARD 4 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place4-4.jpg" alt="" class="place__img">
+                        <img src="assets/img/place4-1.jpg" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -87,9 +88,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Rabbit Bungalow</h3>
-                                <span class="place__subtitle">เกาะพยาม</span>
-                                <span class="place__price">1000฿</span>
+                                <h3 class="place__title">น้ำตกเอราวัณ</h3>
+                                <span class="place__subtitle"> กาญจนบุรี</span>
+                                <span class="place__price"></span>
                             </div>
                         </div>
 
@@ -100,7 +101,7 @@
 
                     <!--==================== PLACES CARD 5 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place5-5.jpg" alt="" class="place__img">
+                        <img src="assets/img/place5-1.jpg" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -109,9 +110,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">La Ong Lay</h3>
-                                <span class="place__subtitle">เกาะพยาม</span>
-                                <span class="place__price">1300฿</span>
+                                <h3 class="place__title">น้ำตกคลองลาน </h3>
+                                <span class="place__subtitle">กำแพงเพชร</span>
+                                <span class="place__price"></span>
                             </div>
                         </div>
 
@@ -121,7 +122,7 @@
                     </div>
                 </div>
             </section>
-            
+
             <!--==================== SUBSCRIBE ====================-->
             <section class="subscribe section">
                 <div class="subscribe__bg">
