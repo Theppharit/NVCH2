@@ -19,6 +19,3 @@
 
         <title>Responsive Website Travel</title>
     </head>
-
-
-    <body>

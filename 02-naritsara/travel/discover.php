@@ -4,9 +4,9 @@
 
         <?php include('include/navbar.php') ?>
 
-        <main class="main">
+        <main class="main"id="discover">
             <!--==================== DISCOVER ====================-->
-            <section class="discover section" id="discover">
+            <section class="discover section">
                 <h2 class="section__title">Discover the most <br> attractive places</h2>
                 
                 <div class="discover__container container swiper-container">

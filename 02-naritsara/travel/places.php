@@ -4,9 +4,9 @@
 
         <?php include('include/navbar.php') ?>
 
-        <main class="main">       
+        <main class="main" id="place">       
             <!--==================== PLACES ====================-->
-            <section class="place section" id="place">
+            <section class="place section">
                 <h2 class="section__title">Accommodation on the island</h2>
 
                 <div class="place__container container grid">
