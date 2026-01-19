@@ -1,4 +1,4 @@
-<header class="header" id="header">
+        <header class="header" id="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">Travel</a>
 
@@ -14,7 +14,7 @@
                             <a href="discover.php" class="nav__link">Discover</a>
                         </li>
                         <li class="nav__item">
-                            <a href="places.php" class="nav__link">Places</a>
+                            <a href="place.php" class="nav__link">Places</a>
                         </li>
                     </ul>
 
