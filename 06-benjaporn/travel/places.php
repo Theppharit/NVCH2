@@ -4,15 +4,15 @@
 
         <?php include('include/navbar.php') ?>
 
-        <main class="main" id="place">
+        <main class="main">       
             <!--==================== PLACES ====================-->
-            <section class="place section">
-                <h2 class="section__title">Choose Your Place</h2>
+            <section class="place section" id="place">
+                <h2 class="section__title">Accommodation on the island</h2>
 
                 <div class="place__container container grid">
                     <!--==================== PLACES CARD 1 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place01.jpg" alt="" class="place__img">
+                        <img src="assets/img/place1-1.jpg" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -21,9 +21,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Khao Yai</h3>
-                                <span class="place__subtitle">Grand Adventure</span>
-                                <span class="place__price">$2999</span>
+                                <h3 class="place__title">TheBlueSkyResort</h3>
+                                <span class="place__subtitle">เกาะพยาม</span>
+                                <span class="place__price">3999฿</span>
                             </div>
                         </div>
 
@@ -34,7 +34,7 @@
 
                     <!--==================== PLACES CARD 2 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place02.jpg" alt="" class="place__img">
+                        <img src="assets/img/place2-2.jpg" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -43,9 +43,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Heaw Narok</h3>
-                                <span class="place__subtitle">Hiking Trail</span>
-                                <span class="place__price">$1599</span>
+                                <h3 class="place__title">King Paradise Payam Resort</h3>
+                                <span class="place__subtitle">เกาะพยาม</span>
+                                <span class="place__price">1400฿</span>
                             </div>
                         </div>
 
@@ -56,7 +56,7 @@
 
                     <!--==================== PLACES CARD 3 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place03.jpg" alt="" class="place__img">
+                        <img src="assets/img/place3-3.jpg" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -65,9 +65,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Night Safari &</h3>
-                                <span class="place__subtitle">Wildlife</span>
-                                <span class="place__price">$3499</span>
+                                <h3 class="place__title">Phayamas Private Beach Resort</h3>
+                                <span class="place__subtitle">เกาะพยาม</span>
+                                <span class="place__price">1500฿</span>
                             </div>
                         </div>
 
@@ -78,18 +78,18 @@
 
                     <!--==================== PLACES CARD 4 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place04.jpg" alt="" class="place__img">
+                        <img src="assets/img/place4-4.jpg" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
                                 <i class="ri-star-line place__rating-icon"></i>
-                                <span class="place__rating-number">4,7</span>
+                                <span class="place__rating-number">4,8</span>
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Pha Diao Dai</h3>
-                                <span class="place__subtitle">Viewpoint</span>
-                                <span class="place__price">$1299</span>
+                                <h3 class="place__title">Rabbit Bungalow</h3>
+                                <span class="place__subtitle">เกาะพยาม</span>
+                                <span class="place__price">1000฿</span>
                             </div>
                         </div>
 
@@ -100,7 +100,7 @@
 
                     <!--==================== PLACES CARD 5 ====================-->
                     <div class="place__card">
-                        <img src="assets/img/place05.jpg" alt="" class="place__img">
+                        <img src="assets/img/place5-5.jpg" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -109,9 +109,9 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title">Family Camp &</h3>
-                                <span class="place__subtitle">BBQ</span>
-                                <span class="place__price">$2499</span>
+                                <h3 class="place__title">La Ong Lay</h3>
+                                <span class="place__subtitle">เกาะพยาม</span>
+                                <span class="place__price">1300฿</span>
                             </div>
                         </div>
 
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </section>
-
+            
             <!--==================== SUBSCRIBE ====================-->
             <section class="subscribe section">
                 <div class="subscribe__bg">
@@ -165,8 +165,6 @@
         </main>
 
         <?php include('include/footer.php') ?>
-        <?php include('include/add-js.php') ?>
-
-
+        <?php include('include/add-js.php') ?>  
     </body>
 </html>

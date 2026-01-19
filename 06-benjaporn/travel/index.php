@@ -7,12 +7,12 @@
         <main class="main" id="index">
             <!--==================== HOME ====================-->
             <section class="home">
-                <img src="assets/img/home01.jpg" alt="" class="home__img">
+                <img src="assets/img/home1-2.jpg" alt="" class="home__img">
 
                 <div class="home__container container grid">
                     <div class="home__data">
-                        <span class="home__data-subtitle">Discover Your Wild Side</span>
-                        <h1 class="home__data-title">Explore  <br> <b> Khao Yai </b> National</h1>
+                        <span class="home__data-subtitle">Discover your place</span>
+                        <h1 class="home__data-title">Explore The <br> Best <b>Beautiful <br> Beaches</b></h1>
                         <a href="#" class="button">Explore</a>
 
                     </div>
@@ -38,17 +38,13 @@
                         </div>
 
                         <div class="home__info-overlay">
-                            <img src="assets/img/home02.jpg" alt="" class="home__info-img">
+                            <img src="assets/img/home2-1.jpg" alt="" class="home__info-img">
                         </div>
                     </div>
                 </div>
             </section>
-
         </main>
-
         <?php include('include/footer.php') ?>
-        <?php include('include/add-js.php') ?>
-
-
+        <?php include('include/add-js.php') ?> 
     </body>
 </html>

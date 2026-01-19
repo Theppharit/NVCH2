@@ -1,8 +1,8 @@
 <?php include('include/head.php') ?>
 <body>
 <?php include('include/navbar.php') ?>
-<main>
-<section class="place section" id="place">
+<main class="main" id="place">
+<section class="place section" >
 
 
     
