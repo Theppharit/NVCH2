@@ -91,7 +91,7 @@ body.dark-theme {
   bottom: 4rem;
 }
 
-.change-theme, 
+.change-theme,
 .change-theme-name {
   color: var(--text-color);
 }
@@ -124,8 +124,8 @@ body {
   color: var(--text-color);
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
@@ -196,7 +196,7 @@ input {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: transparent;
+  background-color: var(--body-color);
 }
 
 /*=============== NAV ===============*/
@@ -207,9 +207,9 @@ input {
   align-items: center;
 }
 
-.nav__logo, 
+.nav__logo,
 .nav__toggle {
-  color: var(--white-color);
+  color: var(--title-color);
 }
 
 .nav__logo {
@@ -246,13 +246,13 @@ input {
 }
 
 .nav__link {
-  color: var(--text-color-light);
+  color: var(--title-color);
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
 }
 
 .nav__link:hover {
-  color: var(--text-color);
+  color: var(--title-color);
 }
 
 .nav__close {
@@ -314,9 +314,9 @@ input {
   row-gap: 3rem;
 }
 
-.home__data-subtitle, 
-.home__data-title, 
-.home__social-link, 
+.home__data-subtitle,
+.home__data-title,
+.home__social-link,
 .home__info {
   color: var(--white-color);
 }
@@ -441,12 +441,12 @@ input {
   width: 180px;
 }
 
-.about__img-one, 
+.about__img-one,
 .about__img-two {
   transition: var(--img-transition);
 }
 
-.about__img-one:hover, 
+.about__img-one:hover,
 .about__img-two:hover {
   transform: var(--img-scale);
 }
@@ -464,7 +464,7 @@ input {
   left: 1rem;
 }
 
-.discover__title, 
+.discover__title,
 .discover__description {
   color: var(--white-color);
 }
@@ -521,12 +521,12 @@ input {
   padding-bottom: 2rem;
 }
 
-.experience__img-one, 
+.experience__img-one,
 .experience__img-two {
   transition: var(--img-transition);
 }
 
-.experience__img-one:hover, 
+.experience__img-one:hover,
 .experience__img-two:hover {
   transform: var(--img-scale);
 }
@@ -573,7 +573,7 @@ input {
 }
 
 /*=============== PLACES ===============*/
-.place__card, 
+.place__card,
 .place__img {
   height: 230px;
 }
@@ -596,7 +596,7 @@ input {
   transition: var(--img-transition);
 }
 
-.place__content, 
+.place__content,
 .place__title {
   color: var(--white-color);
 }
@@ -628,7 +628,7 @@ input {
   font-size: var(--small-font-size);
 }
 
-.place__subtitle, 
+.place__subtitle,
 .place__price {
   display: block;
 }
@@ -656,7 +656,7 @@ input {
   padding: 2.5rem 0;
 }
 
-.subscribe__title, 
+.subscribe__title,
 .subscribe__description {
   color: var(--white-color);
 }
@@ -711,7 +711,7 @@ input {
   row-gap: 2rem;
 }
 
-.footer__title, 
+.footer__title,
 .footer__subtitle {
   font-size: var(--h3-font-size);
 }
@@ -753,7 +753,7 @@ input {
   text-align: center;
 }
 
-.footer__copy, 
+.footer__copy,
 .footer__terms-link {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
@@ -870,12 +870,12 @@ input {
   }
 
   .nav__link {
-    color: var(--white-color);
+    color: var(--title-color);
     text-transform: initial;
   }
 
   .nav__link:hover {
-    color: var(--white-color);
+    color: var(--title-color);
   }
 
   .nav__dark {
@@ -892,7 +892,7 @@ input {
     column-gap: 4rem;
   }
 
-  .nav__toggle, 
+  .nav__toggle,
   .nav__close {
     display: none;
   }
@@ -902,11 +902,11 @@ input {
   }
 
   .change-theme {
-    color: var(--white-color);
+    color: var(--title-color);
   }
 
   .active-link::before {
-    background-color: var(--white-color);
+    background-color: var(--title-color);
   }
 
   .scroll-header .nav__link {
@@ -954,11 +954,11 @@ input {
     align-items: center;
   }
 
-  .about__data, 
+  .about__data,
   .about__title {
     text-align: initial;
   }
-  
+
   .about__title {
     margin-bottom: var(--mb-1-5);
   }
@@ -1039,11 +1039,11 @@ input {
   .about__img-two {
     width: 290px;
   }
-  
+
   .discover__card {
     width: 237px;
   }
-  
+
   .discover__container {
     width: 700px;
   }
@@ -1084,7 +1084,7 @@ input {
     gap: 3rem 2rem;
   }
 
-  .place__card, 
+  .place__card,
   .place__img {
     height: 263px;
   }
@@ -1105,8 +1105,8 @@ input {
   body {
     margin: 0;
   }
-  
-  .home__container, 
+
+  .home__container,
   .home__img {
     height: 640px;
   }
