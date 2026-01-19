@@ -4,7 +4,7 @@
 
         <?php include('include/navbar.php') ?>
 
-        <main class="main"id="about">
+        <main class="main" id="about">
             <!--==================== ABOUT==================-->
             <section class="about section">
                 <div class="about__container container grid">
@@ -31,6 +31,9 @@
         </main>
 
     <?php include('include/footer.php') ?>
+
     <?php include('include/add-js.php') ?>
+
     </body>
+    
 </html>
