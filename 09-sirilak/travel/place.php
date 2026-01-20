@@ -12,7 +12,7 @@
             <div class="place__container container grid">
                 <!--==================== PLACES CARD 1 ====================-->
                 <div class="place__card">
-                    <img src="assets/img/place1.jpg" alt="" class="place__img">
+                    <img src="assets/img/place11.jpg" alt="" class="place__img">
 
                     <div class="place__content">
                         <span class="place__rating">
@@ -34,7 +34,7 @@
 
                 <!--==================== PLACES CARD 2 ====================-->
                 <div class="place__card">
-                    <img src="assets/img/place2.jpg" alt="" class="place__img">
+                    <img src="assets/img/place22.jpg" alt="" class="place__img">
 
                     <div class="place__content">
                         <span class="place__rating">
@@ -56,7 +56,7 @@
 
                 <!--==================== PLACES CARD 3 ====================-->
                 <div class="place__card">
-                    <img src="assets/img/place3.jpg" alt="" class="place__img">
+                    <img src="assets/img/place33.jpg" alt="" class="place__img">
 
                     <div class="place__content">
                         <span class="place__rating">
@@ -78,7 +78,7 @@
 
                 <!--==================== PLACES CARD 4 ====================-->
                 <div class="place__card">
-                    <img src="assets/img/place4.jpg" alt="" class="place__img">
+                    <img src="assets/img/place44.jpg" alt="" class="place__img">
 
                     <div class="place__content">
                         <span class="place__rating">
@@ -100,7 +100,7 @@
 
                 <!--==================== PLACES CARD 5 ====================-->
                 <div class="place__card">
-                    <img src="assets/img/place5.jpg" alt="" class="place__img">
+                    <img src="assets/img/place55.jpg" alt="" class="place__img">
 
                     <div class="place__content">
                         <span class="place__rating">

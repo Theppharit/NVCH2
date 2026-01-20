@@ -19,11 +19,11 @@
 
                 <div class="about__img">
                     <div class="about__img-overlay">
-                        <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        <img src="assets/img/about11.jpg" alt="" class="about__img-one">
                     </div>
 
                     <div class="about__img-overlay">
-                        <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        <img src="assets/img/about22.jpg" alt="" class="about__img-two">
                     </div>
                 </div>
             </div>

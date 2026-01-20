@@ -13,7 +13,7 @@
                 <div class="swiper-wrapper">
                     <!--==================== DISCOVER 1 ====================-->
                     <div class="discover__card swiper-slide">
-                        <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                        <img src="assets/img/discover11.jpg" alt="" class="discover__img">
                         <div class="discover__data">
                             <h2 class="discover__title">Bali</h2>
                             <span class="discover__description">24 tours available</span>
@@ -22,7 +22,7 @@
 
                     <!--==================== DISCOVER 2 ====================-->
                     <div class="discover__card swiper-slide">
-                        <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                        <img src="assets/img/discover22.jpg" alt="" class="discover__img">
                         <div class="discover__data">
                             <h2 class="discover__title">Hawaii</h2>
                             <span class="discover__description">15 tours available</span>
@@ -31,7 +31,7 @@
 
                     <!--==================== DISCOVER 3 ====================-->
                     <div class="discover__card swiper-slide">
-                        <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                        <img src="assets/img/discover33.jpg" alt="" class="discover__img">
                         <div class="discover__data">
                             <h2 class="discover__title">Hvar</h2>
                             <span class="discover__description">18 tours available</span>
@@ -40,7 +40,7 @@
 
                     <!--==================== DISCOVER 4 ====================-->
                     <div class="discover__card swiper-slide">
-                        <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                        <img src="assets/img/discover44.jpg" alt="" class="discover__img">
                         <div class="discover__data">
                             <h2 class="discover__title">Whitehaven</h2>
                             <span class="discover__description">32 tours available</span>
@@ -74,11 +74,11 @@
 
                 <div class="experience__img grid">
                     <div class="experience__overlay">
-                        <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                        <img src="assets/img/experience11.jpg" alt="" class="experience__img-one">
                     </div>
 
                     <div class="experience__overlay">
-                        <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                        <img src="assets/img/experience22.jpeg" alt="" class="experience__img-two">
                     </div>
                 </div>
             </div>

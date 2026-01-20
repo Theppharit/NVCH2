@@ -7,7 +7,7 @@
     <main class="main">
         <!--==================== HOME ====================-->
         <section class="home" id="home">
-            <img src="assets/img/4" alt="" class="home__img">
+            <img src="assets/img/home22.jpg" alt="" class="home__img">
 
             <div class="home__container container grid">
                 <div class="home__data">
@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="home__info-overlay">
-                        <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        <img src="assets/img/home111.jpg" alt="" class="home__info-img">
                     </div>
                 </div>
             </div>
