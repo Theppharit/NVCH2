@@ -4,9 +4,9 @@
     <body>
 <?php include('include/navbar.php') ?>
 
-        <main class="main">
+             <main class="main" id="about">
             <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
+            <section class="about section">
                 <div class="about__container container grid">
                     <div class="about__data">
                         <h2 class="section__title about__title">More Information <br>About Our Café</h2>
