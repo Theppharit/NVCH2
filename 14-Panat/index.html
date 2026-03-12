@@ -1,23 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-    
-
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ประเพณีไทย</title>
+
+<style>
+body{
+    font-family: Tahoma, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#c0392b;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#e74c3c;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+.container{
+    padding:30px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+button{
+    background:#c0392b;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#922b21;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
 </head>
 
-
-
-
 <body>
-    
-    <h1>Hello,Bro
-    
-</h1>
+
+<header>
+<h1>เว็บไซต์ประเพณีไทย</h1>
+<p>เรียนรู้วัฒนธรรมและประเพณีไทยที่สวยงาม</p>
+</header>
+
+<nav>
+<a href="#songkran">สงกรานต์</a>
+<a href="#loy">ลอยกระทง</a>
+<a href="#yee">ยี่เป็ง</a>
+</nav>
+
+<div class="container">
+
+<div class="card" id="songkran">
+<h2>ประเพณีสงกรานต์</h2>
+<p>
+สงกรานต์เป็นวันขึ้นปีใหม่ไทย จัดขึ้นในวันที่ 13–15 เมษายนของทุกปี
+มีกิจกรรมรดน้ำดำหัวผู้ใหญ่ เล่นสาดน้ำ และทำบุญเข้าวัด
+</p>
+<button onclick="showMessage('สุขสันต์วันสงกรานต์!')">กดเพื่ออวยพร</button>
+</div>
+
+<div class="card" id="loy">
+<h2>ประเพณีลอยกระทง</h2>
+<p>
+ลอยกระทงจัดขึ้นในวันเพ็ญเดือน 12 เพื่อขอขมาพระแม่คงคา
+ผู้คนจะประดิษฐ์กระทงและนำไปลอยในแม่น้ำ
+</p>
+<button onclick="showMessage('ขอให้สมหวังในวันลอยกระทง')">กดเพื่ออวยพร</button>
+</div>
+
+<div class="card" id="yee">
+<h2>ประเพณียี่เป็ง</h2>
+<p>
+ยี่เป็งเป็นเทศกาลสำคัญของภาคเหนือ โดยเฉพาะจังหวัดเชียงใหม่
+มีการปล่อยโคมลอยขึ้นสู่ท้องฟ้าเพื่อความเป็นสิริมงคล
+</p>
+<button onclick="showMessage('ยี่เป็งสวยงามมาก!')">กดเพื่ออวยพร</button>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 เว็บไซต์ประเพณีไทย</p>
+</footer>
+
+<script>
+function showMessage(text){
+    alert(text);
+}
+</script>
+
 </body>
-
-
-
 </html>
